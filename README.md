@@ -17,6 +17,10 @@ The app will run automatically after that.
 #### 3. Restarting the app will show the updated quantity for item previously purchased.
 ![updated_quantity](images/updatedQuantity.PNG)
 
+#### 4. If the quantity required by the user is higher than what exists in inventroy, the app will display the product information and terminates conenctivity.
+![not_available](images/notAvailable.PNG)
+
 
 ## Technology
 This project was built with JavaScript, Node, MySQL
+notAvailable
