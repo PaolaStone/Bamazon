@@ -58,9 +58,10 @@ function customerChoice() {
             return true;
           }
           // return false;
-          connection.end();
+          // connection.end();
           console.log("");
           console.log("This is not a valid entry, please start process from beginning");
+          customerChoice();
         }
       },
       {
